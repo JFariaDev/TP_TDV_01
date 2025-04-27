@@ -1,9 +1,7 @@
-bin/
-obj/
+
 *.mgcb
 *.xnb
-Content/bin/
-Content/obj/
+
 *.user
 *.suo
 *.userprefs
@@ -15,8 +13,7 @@ PipelineCache/
 *.snupkg
 packages/
 *.nuspec
-project.lock.json
-project.assets.json
+
 *.tmp
 *.bak
 *.log
