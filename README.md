@@ -5,7 +5,7 @@ Pac-Man Clone - Projeto em MonoGame
 
 Descrição Geral:
 -----------------
-Recriação do clássico Pac-Man usando MonoGame e C#. Este projeto explora movimentação de personagens, colisões, IA básica de inimigos e desenho de mapas baseados em matrizes.
+Recriação do clássico Pac-Man usando MonoGame e C#. Este projeto explora movimentação de personagens, colisões, AI básica de inimigos e desenho de mapas baseados em matrizes.
 
 Controles:
 ----------
@@ -57,7 +57,7 @@ Funções:
 
 4. Level.cs
 -----------
-Classe que gerencia o labirinto do jogo.
+Classe que gere o labirinto do jogo.
 
 Funções:
 - **LoadMap()**:
@@ -71,7 +71,7 @@ Funções:
 
 5. Assets.cs (caso usado)
 -------------------------
-Classe utilitária para gerenciar o carregamento dos sprites e sons.
+Classe utilitária para gerir o carregamento dos sprites e sons.
 
 Funções:
 - **LoadTextures(ContentManager content)**:
@@ -83,12 +83,12 @@ Funcionamento Interno:
 ----------------------
 - O jogo é organizado em um loop onde o `Game1.cs` chama a atualização (`Update`) e o desenho (`Draw`) de todas as entidades (Player, Ghosts, Level).
 - A matriz de mapa define a posição das paredes e dos pontos no cenário.
-- A detecção de colisão é feita usando retângulos (`Rectangle`) para identificar contato entre o Pac-Man, paredes e fantasmas.
+- A deteção de colisão é feita usando retângulos (`Rectangle`) para identificar contato entre o Pac-Man, paredes e fantasmas.
 
 Sugestões de Melhorias Futuras:
 -------------------------------
 - Adicionar sistema de vidas.
-- Implementar IA real dos fantasmas (Blinky, Pinky, Inky, Clyde).
+- Implementar AI real dos fantasmas (Blinky, Pinky, Inky, Clyde).
 - Criar menus de início e de Game Over.
 - Adicionar efeitos sonoros de vitória e derrota.
 
